@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon --exec babel-node ./src/app.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
   "babel": {
     "presets": [
       "@babel/preset-env"
