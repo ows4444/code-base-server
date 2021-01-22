@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "nodemon --exec babel-node ./src/app.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/eslint-parser": "^7.12.1",
+    "prettier": "^2.2.1"
+  },
   "babel": {
     "presets": [
       "@babel/preset-env"
