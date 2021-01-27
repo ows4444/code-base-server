@@ -1,6 +1,7 @@
 import i18next from 'i18next'
 import Backend from 'i18next-node-fs-backend'
 import i18nextMiddleware from 'i18next-express-middleware'
+//TODO: Add advanced Functionality 
 i18next
   .use(Backend)
   .use(i18nextMiddleware.LanguageDetector)
